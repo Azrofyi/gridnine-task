@@ -1,0 +1,71 @@
+.flight-search {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+}
+
+.filter-panel {
+    width: 250px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.flight-list {
+    flex: 1;
+}
+
+.flight {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-details {
+    max-width: 100%;
+}
+
+.leg-details {
+    margin-bottom: 20px;
+}
+
+.flight-times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.flight-times span {
+    margin: 0 10px;
+}
+
+.flight-price {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.select-button {
+    background-color: #7b00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.select-button:hover {
+    background-color: #5600b3;
+}
