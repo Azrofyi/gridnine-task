@@ -21,7 +21,7 @@ const FlightSearch = () => {
 
     useEffect(() => {
         axios
-            .get('/flights.json')
+            .get('/gridnine-task/flights.json')
             .then((response) => {
                 const flights = response.data.result.flights;
                 setAllFlights(flights);
